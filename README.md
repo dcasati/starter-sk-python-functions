@@ -53,7 +53,14 @@ This codespace is a full-fledged development environment, and you can write and 
    ```sh
    python -m venv .venv
    ```
-
+1. Initialize the virtual environment
+   ```sh
+   source .venv/bin/activate
+   ```
+1. Run the function
+   ```sh
+   func start
+   ```
 ### 2. Debug
 
 1. Start the Azurite services
